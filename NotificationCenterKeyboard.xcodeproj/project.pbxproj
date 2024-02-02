@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550014072B6D7A1D00E0128B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550014062B6D7A1D00E0128B /* AppDelegate.swift */; };
+		550014092B6D7A1D00E0128B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550014082B6D7A1D00E0128B /* SceneDelegate.swift */; };
+		5500140B2B6D7A1D00E0128B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500140A2B6D7A1D00E0128B /* ViewController.swift */; };
+		5500140E2B6D7A1D00E0128B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5500140C2B6D7A1D00E0128B /* Main.storyboard */; };
+		550014112B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5500140F2B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodeld */; };
+		550014132B6D7A2000E0128B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550014122B6D7A2000E0128B /* Assets.xcassets */; };
+		550014162B6D7A2000E0128B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550014142B6D7A2000E0128B /* LaunchScreen.storyboard */; };
+		550014212B6D7A2000E0128B /* NotificationCenterKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550014202B6D7A2000E0128B /* NotificationCenterKeyboardTests.swift */; };
+		5500142B2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500142A2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift */; };
+		5500142D2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500142C2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5500141D2B6D7A2000E0128B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550013FB2B6D7A1D00E0128B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550014022B6D7A1D00E0128B;
+			remoteInfo = NotificationCenterKeyboard;
+		};
+		550014272B6D7A2000E0128B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550013FB2B6D7A1D00E0128B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550014022B6D7A1D00E0128B;
+			remoteInfo = NotificationCenterKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550014032B6D7A1D00E0128B /* NotificationCenterKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCenterKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550014062B6D7A1D00E0128B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		550014082B6D7A1D00E0128B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5500140A2B6D7A1D00E0128B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5500140D2B6D7A1D00E0128B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550014102B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotificationCenterKeyboard.xcdatamodel; sourceTree = "<group>"; };
+		550014122B6D7A2000E0128B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		550014152B6D7A2000E0128B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		550014172B6D7A2000E0128B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5500141C2B6D7A2000E0128B /* NotificationCenterKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550014202B6D7A2000E0128B /* NotificationCenterKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterKeyboardTests.swift; sourceTree = "<group>"; };
+		550014262B6D7A2000E0128B /* NotificationCenterKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5500142A2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterKeyboardUITests.swift; sourceTree = "<group>"; };
+		5500142C2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterKeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550014002B6D7A1D00E0128B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550014192B6D7A2000E0128B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550014232B6D7A2000E0128B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550013FA2B6D7A1D00E0128B = {
+			isa = PBXGroup;
+			children = (
+				550014052B6D7A1D00E0128B /* NotificationCenterKeyboard */,
+				5500141F2B6D7A2000E0128B /* NotificationCenterKeyboardTests */,
+				550014292B6D7A2000E0128B /* NotificationCenterKeyboardUITests */,
+				550014042B6D7A1D00E0128B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		550014042B6D7A1D00E0128B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550014032B6D7A1D00E0128B /* NotificationCenterKeyboard.app */,
+				5500141C2B6D7A2000E0128B /* NotificationCenterKeyboardTests.xctest */,
+				550014262B6D7A2000E0128B /* NotificationCenterKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550014052B6D7A1D00E0128B /* NotificationCenterKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				550014062B6D7A1D00E0128B /* AppDelegate.swift */,
+				550014082B6D7A1D00E0128B /* SceneDelegate.swift */,
+				5500140A2B6D7A1D00E0128B /* ViewController.swift */,
+				5500140C2B6D7A1D00E0128B /* Main.storyboard */,
+				550014122B6D7A2000E0128B /* Assets.xcassets */,
+				550014142B6D7A2000E0128B /* LaunchScreen.storyboard */,
+				550014172B6D7A2000E0128B /* Info.plist */,
+				5500140F2B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodeld */,
+			);
+			path = NotificationCenterKeyboard;
+			sourceTree = "<group>";
+		};
+		5500141F2B6D7A2000E0128B /* NotificationCenterKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				550014202B6D7A2000E0128B /* NotificationCenterKeyboardTests.swift */,
+			);
+			path = NotificationCenterKeyboardTests;
+			sourceTree = "<group>";
+		};
+		550014292B6D7A2000E0128B /* NotificationCenterKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5500142A2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift */,
+				5500142C2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift */,
+			);
+			path = NotificationCenterKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550014022B6D7A1D00E0128B /* NotificationCenterKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550014302B6D7A2000E0128B /* Build configuration list for PBXNativeTarget "NotificationCenterKeyboard" */;
+			buildPhases = (
+				550013FF2B6D7A1D00E0128B /* Sources */,
+				550014002B6D7A1D00E0128B /* Frameworks */,
+				550014012B6D7A1D00E0128B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationCenterKeyboard;
+			productName = NotificationCenterKeyboard;
+			productReference = 550014032B6D7A1D00E0128B /* NotificationCenterKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5500141B2B6D7A2000E0128B /* NotificationCenterKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550014332B6D7A2000E0128B /* Build configuration list for PBXNativeTarget "NotificationCenterKeyboardTests" */;
+			buildPhases = (
+				550014182B6D7A2000E0128B /* Sources */,
+				550014192B6D7A2000E0128B /* Frameworks */,
+				5500141A2B6D7A2000E0128B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5500141E2B6D7A2000E0128B /* PBXTargetDependency */,
+			);
+			name = NotificationCenterKeyboardTests;
+			productName = NotificationCenterKeyboardTests;
+			productReference = 5500141C2B6D7A2000E0128B /* NotificationCenterKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		550014252B6D7A2000E0128B /* NotificationCenterKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550014362B6D7A2000E0128B /* Build configuration list for PBXNativeTarget "NotificationCenterKeyboardUITests" */;
+			buildPhases = (
+				550014222B6D7A2000E0128B /* Sources */,
+				550014232B6D7A2000E0128B /* Frameworks */,
+				550014242B6D7A2000E0128B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550014282B6D7A2000E0128B /* PBXTargetDependency */,
+			);
+			name = NotificationCenterKeyboardUITests;
+			productName = NotificationCenterKeyboardUITests;
+			productReference = 550014262B6D7A2000E0128B /* NotificationCenterKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550013FB2B6D7A1D00E0128B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					550014022B6D7A1D00E0128B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5500141B2B6D7A2000E0128B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 550014022B6D7A1D00E0128B;
+					};
+					550014252B6D7A2000E0128B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 550014022B6D7A1D00E0128B;
+					};
+				};
+			};
+			buildConfigurationList = 550013FE2B6D7A1D00E0128B /* Build configuration list for PBXProject "NotificationCenterKeyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 550013FA2B6D7A1D00E0128B;
+			productRefGroup = 550014042B6D7A1D00E0128B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550014022B6D7A1D00E0128B /* NotificationCenterKeyboard */,
+				5500141B2B6D7A2000E0128B /* NotificationCenterKeyboardTests */,
+				550014252B6D7A2000E0128B /* NotificationCenterKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550014012B6D7A1D00E0128B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550014162B6D7A2000E0128B /* LaunchScreen.storyboard in Resources */,
+				550014132B6D7A2000E0128B /* Assets.xcassets in Resources */,
+				5500140E2B6D7A1D00E0128B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500141A2B6D7A2000E0128B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550014242B6D7A2000E0128B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550013FF2B6D7A1D00E0128B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550014112B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodeld in Sources */,
+				5500140B2B6D7A1D00E0128B /* ViewController.swift in Sources */,
+				550014072B6D7A1D00E0128B /* AppDelegate.swift in Sources */,
+				550014092B6D7A1D00E0128B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550014182B6D7A2000E0128B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550014212B6D7A2000E0128B /* NotificationCenterKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550014222B6D7A2000E0128B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5500142B2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift in Sources */,
+				5500142D2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5500141E2B6D7A2000E0128B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550014022B6D7A1D00E0128B /* NotificationCenterKeyboard */;
+			targetProxy = 5500141D2B6D7A2000E0128B /* PBXContainerItemProxy */;
+		};
+		550014282B6D7A2000E0128B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550014022B6D7A1D00E0128B /* NotificationCenterKeyboard */;
+			targetProxy = 550014272B6D7A2000E0128B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5500140C2B6D7A1D00E0128B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5500140D2B6D7A1D00E0128B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		550014142B6D7A2000E0128B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550014152B6D7A2000E0128B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5500142E2B6D7A2000E0128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5500142F2B6D7A2000E0128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550014312B6D7A2000E0128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 538YK27G99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationCenterKeyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alejandro.NotificationCenterKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		550014322B6D7A2000E0128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 538YK27G99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationCenterKeyboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alejandro.NotificationCenterKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		550014342B6D7A2000E0128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 538YK27G99;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alejandro.NotificationCenterKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationCenterKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotificationCenterKeyboard";
+			};
+			name = Debug;
+		};
+		550014352B6D7A2000E0128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 538YK27G99;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alejandro.NotificationCenterKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationCenterKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotificationCenterKeyboard";
+			};
+			name = Release;
+		};
+		550014372B6D7A2000E0128B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 538YK27G99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alejandro.NotificationCenterKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotificationCenterKeyboard;
+			};
+			name = Debug;
+		};
+		550014382B6D7A2000E0128B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 538YK27G99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alejandro.NotificationCenterKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotificationCenterKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550013FE2B6D7A1D00E0128B /* Build configuration list for PBXProject "NotificationCenterKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5500142E2B6D7A2000E0128B /* Debug */,
+				5500142F2B6D7A2000E0128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550014302B6D7A2000E0128B /* Build configuration list for PBXNativeTarget "NotificationCenterKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550014312B6D7A2000E0128B /* Debug */,
+				550014322B6D7A2000E0128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550014332B6D7A2000E0128B /* Build configuration list for PBXNativeTarget "NotificationCenterKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550014342B6D7A2000E0128B /* Debug */,
+				550014352B6D7A2000E0128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550014362B6D7A2000E0128B /* Build configuration list for PBXNativeTarget "NotificationCenterKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550014372B6D7A2000E0128B /* Debug */,
+				550014382B6D7A2000E0128B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5500140F2B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				550014102B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodel */,
+			);
+			currentVersion = 550014102B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodel */;
+			path = NotificationCenterKeyboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 550013FB2B6D7A1D00E0128B /* Project object */;
+}
