@@ -17,6 +17,8 @@
 		550014212B6D7A2000E0128B /* NotificationCenterKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550014202B6D7A2000E0128B /* NotificationCenterKeyboardTests.swift */; };
 		5500142B2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500142A2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift */; };
 		5500142D2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500142C2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift */; };
+		5500143A2B6D7B9200E0128B /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550014392B6D7B9200E0128B /* NotificationCenter.swift */; };
+		5500143C2B6D8EE200E0128B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500143B2B6D8EE200E0128B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		550014262B6D7A2000E0128B /* NotificationCenterKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5500142A2B6D7A2000E0128B /* NotificationCenterKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterKeyboardUITests.swift; sourceTree = "<group>"; };
 		5500142C2B6D7A2000E0128B /* NotificationCenterKeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterKeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		550014392B6D7B9200E0128B /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		5500143B2B6D8EE200E0128B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 			children = (
 				550014062B6D7A1D00E0128B /* AppDelegate.swift */,
 				550014082B6D7A1D00E0128B /* SceneDelegate.swift */,
+				550014392B6D7B9200E0128B /* NotificationCenter.swift */,
 				5500140A2B6D7A1D00E0128B /* ViewController.swift */,
+				5500143B2B6D8EE200E0128B /* HomeView.swift */,
 				5500140C2B6D7A1D00E0128B /* Main.storyboard */,
 				550014122B6D7A2000E0128B /* Assets.xcassets */,
 				550014142B6D7A2000E0128B /* LaunchScreen.storyboard */,
@@ -263,6 +269,8 @@
 			files = (
 				550014112B6D7A1D00E0128B /* NotificationCenterKeyboard.xcdatamodeld in Sources */,
 				5500140B2B6D7A1D00E0128B /* ViewController.swift in Sources */,
+				5500143A2B6D7B9200E0128B /* NotificationCenter.swift in Sources */,
+				5500143C2B6D8EE200E0128B /* HomeView.swift in Sources */,
 				550014072B6D7A1D00E0128B /* AppDelegate.swift in Sources */,
 				550014092B6D7A1D00E0128B /* SceneDelegate.swift in Sources */,
 			);
